@@ -22,7 +22,7 @@ mycursor.execute("CREATE TABLE orders(order_id INT(PRIMARY KEY)
                                       order_date DATE)")
 
 
-mycursor.execute("CREATE TABLE order_details(orderdetailid (PRIMARY KEY)
+mycursor.execute("CREATE TABLE Order_Details(orderdetailid (PRIMARY KEY)
                                              FOREIGN KEY (book_id) REFERENCES Books(book_id)
                                              book_id INT FOREIGN KEY (order_id) REFERENCES Orders(order_id)
                                              quantity DOUBLE)")
