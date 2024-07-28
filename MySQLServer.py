@@ -10,5 +10,4 @@ USE alx_book_store
 mycursor.close()
 mydb.close()
 
-.,bn
 
