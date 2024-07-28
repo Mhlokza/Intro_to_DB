@@ -8,3 +8,5 @@ mycursor.execute("INSERT INTO customer(customer_id = 1
                                        email,
                                        address) VALUE(1,
                                        Cole Baidoo,cbaidoo@sandtech.com,123 Happiness Ave.)")
+
+                                       ..

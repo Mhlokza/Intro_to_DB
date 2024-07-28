@@ -27,3 +27,4 @@ mycursor.execute("CREATE TABLE Order_Details(orderdetailid (PRIMARY KEY)
                                              book_id INT FOREIGN KEY (order_id) REFERENCES Orders(order_id)
                                              quantity DOUBLE)")
 
+.
