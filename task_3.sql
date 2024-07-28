@@ -6,4 +6,3 @@ mycursor = mydb.cursor()
 mycursor.execute("FROM lx_book_store SHOW TABLES ")
 for tables in mycursor:
 print(mycursor)
-.
